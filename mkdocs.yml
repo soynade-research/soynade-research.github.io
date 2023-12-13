@@ -4,30 +4,18 @@ theme:
   palette:
     scheme: slate
     primary: black
-markdown_extensions:
-  - toc:
-      permalink: "#"
-  - smarty
-  - admonition
-  - footnotes
-  - codehilite
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - fontawesome_markdown
+  features:
+    # - navigation.instant # some features may not work properly with XHR
+    - navigation.tracking # the URL changes with the active anchor
+    - navigation.tabs # first top-level sections are shown as tabs
+    # - navigation.tabs.sticky # tabs always show
+    # - navigation.sections # sections are rendered as groups in the sidebar
+    # - navigation.expand # all sections are expanded
+    - navigation.indexes # link an index.md page to a section
+    - navigation.top # show back-to-top button
+    # - toc.integrate # show table of contents to navigation panel
+    # - header.autohide
+
 extra:
   social:
   - icon: fontawesome/brands/github
