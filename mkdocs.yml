@@ -2,14 +2,14 @@ site_name: Yaya Sy
 theme:
   palette: 
     # Palette toggle for light mode
-    scheme: default
+    - scheme: default
     toggle:
       icon: material/toggle-switch
       name: Dark
     primary: black
     accent: indigo
     # Palette toggle for dark mode
-    scheme: slate
+    - scheme: slate
     toggle:
       icon: material/toggle-switch-off-outline
       name: Light
