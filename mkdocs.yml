@@ -1,10 +1,14 @@
 site_name: Yaya Sy
 
 nav:
-  - Home: index.md
-  - Products: products.md
-  - Research: research.md
-  - Blogpost: blogpost.md
+  - Home:
+    - index.md
+  - Products:
+    - products.md
+  - Research:
+    - research.md
+  - Blogpost:
+    - blogpost.md
 
 theme:
   name: material
